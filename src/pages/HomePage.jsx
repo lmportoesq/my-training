@@ -1,6 +1,7 @@
-import Header from '../components/header/Header';
-import TrainingList from '../components/training/TrainingList';
-import Footer from '../components/footer/Footer';
+import Header from '../components/Header';
+import TrainingList from '../components/TrainingList';
+import Footer from '../components/Footer';
+
 function HomePage(){
    return(
     <div>

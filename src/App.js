@@ -1,8 +1,8 @@
 import './App.css';
-import HomePage from '../src/pages/HomePage';
+import Routes from '../src/components/Routes';
 function App() {
   return (
-    <HomePage />
+    <Routes />
   );
 }
 

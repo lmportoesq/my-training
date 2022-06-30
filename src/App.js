@@ -1,8 +1,10 @@
 import './App.css';
-import Routes from '../src/components/Routes';
+import Routes from './components/routes/Routes';
 function App() {
   return (
-    <Routes />
+    <div>
+      <Routes />
+    </div>
   );
 }
 

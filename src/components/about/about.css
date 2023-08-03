@@ -1,0 +1,87 @@
+.about {
+    width: 60%;
+    height: 350px;
+    padding: 10px;
+    border: solid 2px blue;
+    box-shadow: 1px 1px 8px rgb(44, 43, 43);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.about h1 {
+    text-align: center;
+    text-shadow: 2px 2px 1px black;
+}
+
+.about img {
+    width: 350px;
+    height: 260px;
+}
+
+#about__information {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 8px;
+}
+
+#about__information-text{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+#about__information p {
+    text-align: justify;
+}
+
+#about-information h2 {
+    text-align: center;
+    padding: 2px;
+}
+
+.button {
+	border: none;
+	min-width: 120px;
+	height: 50px;
+	padding: 0 30px;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	border-radius: 100px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #403CC2;
+	transition: .3s ease all;
+}
+.button__texto {
+	font-weight: 600;
+}
+
+.button:hover {
+	background: #1B1881;
+	text-decoration: none;
+}
+
+.button--absolute {
+	position: absolute;
+	right: 170px;
+	bottom: 140px;
+}
+
+.button--verde {
+	background: #7BA771;
+}
+
+.button--verde:hover {
+	background: #437837;
+}

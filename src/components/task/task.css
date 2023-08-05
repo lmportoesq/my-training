@@ -1,0 +1,28 @@
+.container-tasks{
+    width: 100%;
+    display: flex;
+    gap: 8px;
+}
+.container-tasks__list{
+    width: 70%;
+}
+.container-tasks__info{
+    width: 30%;
+}
+.delete-icon__small{
+    width: 16px;
+    height: 16px;
+}
+.container-add{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: blue;
+    color: white;
+}
+.container-add__link{
+    color: white;
+    align-items: center;
+    text-decoration: none;
+    font-size: 30px;
+}

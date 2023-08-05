@@ -1,0 +1,8 @@
+.value-counter{
+    width: 100%;
+    padding: 8px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap:12px;
+}

@@ -1,5 +1,4 @@
-import './App.css';
-import Routes from './components/routes/Routes';
+import Routes from './Routes';
 function App() {
   return (
     <div>

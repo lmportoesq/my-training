@@ -1,0 +1,38 @@
+.button {
+	border: none;
+	min-width: 120px;
+	height: 50px;
+	padding: 0 30px;
+	background: #000;
+	color: #fff;
+	display: inline-block;
+	border-radius: 100px;
+	text-decoration: none;
+	display: inline-flex;
+	justify-content: space-between;
+	align-items: center;
+	background: #403CC2;
+	transition: .3s ease all;
+}
+.button__texto {
+	font-weight: 600;
+}
+
+.button:hover {
+	background: #1B1881;
+	text-decoration: none;
+}
+
+.button--absolute {
+	position: absolute;
+	right: 320px;
+	bottom: 60px;
+}
+
+.button--verde {
+	background: #437837;
+}
+
+.button--verde:hover {
+	background: #7BA771;
+}

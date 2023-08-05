@@ -1,0 +1,14 @@
+.counter{
+    width: 100%;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.counter__actions{
+    width: 70%;
+	display: inline-flex;
+	justify-content: space-around;
+    align-items: center;
+}

@@ -1,0 +1,7 @@
+.show-modal__add{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgb(1, 1, 79);
+    color: white;
+}

@@ -1,0 +1,35 @@
+.task-list{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.task-list__items{
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+}
+.task-list__text{
+    width: 90%;
+}
+
+.task-list__actions{
+    width: 10%;
+    display: flex;
+    justify-content: flex-end;
+    gap: 2px;
+}
+.edit-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.delete-icon{
+    width: 20px;
+    height: 20px;
+}
+.task-list__text ol{
+    height: 2px;
+}
+.task-list__text ol li{
+    height: 20px;
+}

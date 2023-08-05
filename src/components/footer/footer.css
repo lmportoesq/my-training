@@ -1,4 +1,5 @@
 .footer {
+    padding: 6px;
     background-color: black;
     color: white;
     text-align: center;
@@ -6,7 +7,16 @@
     display: flex;
     flex-direction: column;
 }
+.footer__item{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+.footer__text{
+    color: rgb(147, 147, 60);
+}
 
 .footer h3 {
-    margin: 2px;
+    margin-bottom: 4px;
 }
